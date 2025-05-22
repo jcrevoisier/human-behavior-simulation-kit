@@ -1,0 +1,47 @@
+{
+  "name": "human-behavior-simulation-kit",
+  "version": "1.0.0",
+  "description": "A toolkit for simulating human-like behavior in web automation and scraping projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "example:search": "ts-node src/examples/searchExample.ts",
+    "example:form": "ts-node src/examples/formFillExample.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web-scraping",
+    "automation",
+    "playwright",
+    "puppeteer",
+    "human-simulation",
+    "bot-detection",
+    "browser-automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.32.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "playwright": "^1.20.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/human-behavior-simulation-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/human-behavior-simulation-kit/issues"
+  },
+  "homepage": "https://github.com/yourusername/human-behavior-simulation-kit#readme"
+}
